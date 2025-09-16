@@ -148,8 +148,8 @@
   <nav class="bottom">
     <button title="Home" onclick="showPage('homePage')">🏠</button>
     <button title="Search" onclick="document.getElementById('searchInput').focus()">🔍</button>
-    <button title="Profile" onclick="openProfile()">👤</button>
-    <button title="Login" id="bottomLoginBtn" onclick="showAuth()">🔑</button>
+    <button title="Profile" onclick="openProfile(Profile)">👤</button>
+    <button title="Login" id="bottomLoginBtn" onclick="showAuth(Login)">🔑</button>
   </nav>
 
 <script>
@@ -448,4 +448,5 @@ if (sessionUser()){ showPage('homePage'); } else { showPage('authPage'); }
 </script>
 </body>
 </html>
+
 
